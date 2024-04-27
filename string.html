@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        /*---by using string literal
+        let x='hello'
+        console.log(x)
+        console.log(typeof(x))
+        -------*/
+
+        /*----by using string constructor
+        let y=String('hii')
+        console.log(y)
+        console.log(typeof(y))
+        ---------------*/
+
+        /*-----by using new keyword followed by string
+        let z=new String('world')
+        console.log(z)
+        console.log(typeof(z))
+        ------*/
+
+        let x='hello'
+
+        /*---length
+        console.log(x.length)  //5
+        -----*/
+
+        /*---slice
+        console.log(x.slice(0)) //hello
+        console.log(x.slice(1,3))  //el
+        console.log(x.slice(-5))  //hello
+        console.log(x.slice(9,4))  //it wont give anything
+        -----*/
+
+        /*---substring
+        console.log(x.substring(2,1))  //e  //starting index is greatar than ending index so tha values are going to swap (1,2)
+        console.log(x.substring(-3))   //it we give less than zero values it is going to take entire word from fiest
+        -----*/
+
+        /*--substr
+        console.log(x.substr(1,4))
+        console.log(x.substr(2))
+        ------*/
+
+        /*---trim,trimstart,trimend
+        let y="     good morning     "
+        console.log(y)
+        console.log(y.trim())
+        console.log(y.trimStart())
+        console.log(y.trimEnd())
+        -----*/
+
+        /*---padstart and padend
+        let  z="CODE"
+        console.log(z.padStart(10,"*"))   //******CODE
+        console.log(z.padEnd(10,"*"))     //CODE******
+
+        let a="GOOD"
+        console.log(a.padEnd(11,"MORNING"))
+        ------*/
+
+        /*---replace and replaceAll
+        let b="he is a software engineer and he works at  cognizent company"
+        console.log(b.replace("he","john"))
+        console.log(b.replaceAll("he","john"))
+        ------*/
+
+        /*----split
+        let c="hello"
+        console.log(typeof(c))
+        console.log(c.split())
+        console.log(typeof(c.split()))
+        ------*/
+
+        /*--startsWith and endsWith
+        let d="he is a software engineer and he works at hyd"
+        console.log(d.startsWith("he")) //true
+        console.log(d.startsWith("hii")) //false
+
+        console.log(d.endsWith("goa")) //false
+        console.log(d.endsWith("he"))  //false
+        console.log(d.endsWith("hyd")) //true
+        console.log(d.endsWith("Hyderabad"))  //false
+        ------*/
+
+        /*----indexOf and lastIndexOf
+        let e="he is a software engineer"
+        console.log(e.indexOf('h'))  //0
+        console.log(e.indexOf('a'))  /6
+        console.log(e.lastIndexOf('a')) //13
+        ------*/
+
+
+        /*--toUppercase and toLowercase 
+        let f="good morning"
+        console.log(f.toUpperCase())
+
+        let g="GOOD MORNING"
+        console.log(g.toLowerCase())
+        -----*/
+
+        /*---undefined
+        let h  //declaration
+        console.log(h)
+        console.log(typeof(h))
+        -----*/
+
+        /*--interpolation
+        let x1=Number(prompt('input of first number'))
+        let y1=Number(prompt("iput of second number"))
+        let sum=x1+y1
+        console.log("it prints sume of ${x} and ${y}")
+        console.log(sum)
+        -----*/
+
+        
+    </script>
+
+
+</body>
+</html>
